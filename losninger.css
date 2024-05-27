@@ -1,0 +1,129 @@
+*
+/********** Toppen af siden *********/
+
+.toppen_løsninger {
+  font-family: "Kanit", sans-serif;
+  color: #458554;
+  padding-left: 5%;
+  margin-top: -40px;
+}
+
+.løsninger {
+  font-size: 50px;
+}
+
+.løsninger_2 {
+  margin-top: -30px;
+}
+
+.billedegalleri {
+  font-family: "Kanit", sans-serif;
+}
+
+h3 {
+  color: #458554;
+  text-decoration: underline;
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+ul {
+  font-family: "Kanit", sans-serif;
+  text-align: left;
+}
+
+.billeder {
+  width: 100%;
+  padding-top: 10%;
+  border-radius: 5px; /* Tilføj runde kanter, juster værdien efter behov */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0 auto; /* Centrerer billedet og tilføjer afstand til siderne */
+  display: block; /* Sørger for, at margin-auto virker korrekt */
+}
+
+.wrapper {
+  background-color: #e2f5d4;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 92%; /* Stopper kassen lidt før kanterne af hjemmesiden */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tilføjer en let skygge for dybde */
+}
+
+/********* Billede galleri **********/
+
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 10%;
+}
+
+.slide {
+  display: block;
+  text-align: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -85px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/********* Desktop ***********/
+
+@media (min-width: 750px) {
+  .billeder {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+  }
+
+  .første_række {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .anden_række {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10%;
+    gap: 20px;
+  }
+
+  .sidste_række {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15%;
+  }
+  .slide {
+    display: block !important;
+  }
+}

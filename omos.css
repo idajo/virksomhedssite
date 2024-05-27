@@ -1,0 +1,122 @@
+@media (min-width: 700px) {
+  h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.8rem;
+    color: #458554;
+  }
+
+  h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+  .grid_1-22 {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+  }
+
+  p {
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin: auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  h4 {
+    font-family: "Kanit", sans-serif;
+    color: white;
+    background-color: #8fd6a1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 92%;
+    font-size: 2.5rem;
+  }
+
+  .hor {
+    text-align: center;
+  }
+}
+
+.wrapper {
+  background-color: #e2f5d4;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 92%;
+  /* Stopper kassen lidt før kanterne af hjemmesiden */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Tilføjer en let skygge for dybde */
+}
+
+.wrapper,
+.section {
+  margin-bottom: 30px;
+  /* Adjust this value as needed */
+}
+
+@media (max-width: 700px) {
+  img {
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    color: #458554;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.7rem;
+  }
+  h4 {
+    font-family: "Kanit", sans-serif;
+    color: white;
+    background-color: #8fd6a1;
+    padding: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 50%;
+    font-size: 1.56rem;
+    text-align: center;
+  }
+  .img1 {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+}
