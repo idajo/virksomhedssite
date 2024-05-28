@@ -51,7 +51,11 @@
     margin: auto;
     max-width: 92%;
     font-size: 2.5rem;
+    
   }
+.aa {
+margin: auto;
+}
 
   .hor {
     text-align: center;
