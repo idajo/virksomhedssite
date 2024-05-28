@@ -1,9 +1,9 @@
 @media (min-width: 700px) {
   h1 {
     font-family: "Kanit", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #458554;
   }
 
@@ -67,6 +67,7 @@
   /* Stopper kassen lidt før kanterne af hjemmesiden */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* Tilføjer en let skygge for dybde */
+  margin-top: 5%;
 }
 
 .wrapper,
