@@ -49,6 +49,7 @@ ul {
   margin: 0 auto;
   max-width: 92%; /* Stopper kassen lidt før kanterne af hjemmesiden */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tilføjer en let skygge for dybde */
+  margin-top: 5%;
 }
 
 /********* Billede galleri **********/
