@@ -239,9 +239,9 @@ iframe {
   .lottie_hero .lottiesucky {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 30px;
+    padding-left: 8%;
     padding-top: 50px;
-    scale: 1.2;
+    scale: 2.2;
   }
   .checkbox {
     text-align: prettier;
