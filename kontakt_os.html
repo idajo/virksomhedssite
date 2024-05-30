@@ -94,32 +94,43 @@
     <div id="book">
 
     </div>
-    <form>
-        <div class="formfelt">
-            <label for="full-name">Fulde navn</label>
-            <input id="full-name" name="fname" type="text">
-        </div>
-        <div class="formfelt">
-            <label for="email">E-mail</label>
-            <input id="email" name="email" type="email">
-        </div>
-        <div class="formfelt">
-            <label for="telefon">Telefon</label>
-            <input id="telefon" name="telefon" type="tel">
-        </div>
-        <div class="formfelt">
-            <label for="firma">Firma navn</label>
-            <input id="firma" name="firma" type="text">
-        </div>
-        <div class="form-felt">
-            <label>
-                Besked (valgfri)
-                <textarea name="besked" rows="5"></textarea>
-            </label>
-        </div>
-        <button>Indsend</button>
 
-    </form>
+    <div class="row">
+        <div class="col-md-12">
+            <form action="index.html" method="post">
+                <h1> Book møde nu </h1>
+
+                <fieldset>
+
+                    <legend><span class="number">1</span> Din information</legend>
+
+                    <label for="name">Fulde Navn:</label>
+                    <input type="text" id="name" name="user_name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+
+                    <label for="number">Telefon:</label>
+                    <input type="tel" id="number" name="user_number">
+
+                    <label for="name">Firma navn:</label>
+                    <input type="text" id="name" name="user_name">
+
+
+                    <label for="bio">Besked (valgfri):</label>
+                    <textarea id="bio" name="user_bio"></textarea>
+
+
+
+
+
+                </fieldset>
+
+                <button type="submit">Indsend</button>
+
+            </form>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-container">
